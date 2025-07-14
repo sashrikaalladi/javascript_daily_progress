@@ -37,5 +37,27 @@
 //     count.textContent=countvalue
 // }
 
+//RANDOMNUMBER GENERATOR
 
+// const btn = document.getElementById("btn")
+// const label1 = document.getElementById("label1")
+// const label2 = document.getElementById("label2")
+// const label3 = document.getElementById("label3")
 
+// const min = 1
+// const max = 6
+// let randomnumber;
+// btn.onclick = function () {
+//     randomnumber1 = Math.floor(Math.random() * max) + min
+//     randomnumber2 = Math.floor(Math.random() * max) + min
+//     randomnumber3 = Math.floor(Math.random() * max) + min
+
+//     label1.textContent = randomnumber1;
+//     label2.textContent = randomnumber2;
+//     label3.textContent = randomnumber3;
+// }
+
+ 
+// age=21
+//let message= age>=21 ? "eligible" : "not eligible"
+//console.log(message)

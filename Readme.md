@@ -29,4 +29,36 @@
    Math.log(), Math.random()
    Math.max(x,y,z),Math.min(x,y,z)
 
-8.RANDOM NUMBER GENERATOR
+8.RANDOM NUMBER GENERATOR 
+  min=1 max=9      randomnumber1 = Math.floor(Math.random() * max) + min
+
+9.IF Statements
+
+10.Ternary operator ---> shortcut of if - else 
+let x=5    x=>5 ? "yes" : "no"
+
+11.Switch 
+   let day=3
+   switch(day){
+    case 1:
+    console.log("monday")
+    break
+    case2:
+    console.log("tuesday")
+    break
+    case 3:
+    console.log("wednesday")
+    break
+    default:
+    console.log("invalid day")
+   }
+
+12.String methods -----> let str="sashrika"     
+   |charAt()              | indexOf()--first Occurances       | lastIndexOf()--last occurance
+str.charAT(3)--->h         str.indexOf("s")---> 0             str.indexOf("s")---> 2
+
+  |length()               | trim()-->trim any white spaces    |toUppercase()
+str.length()--->8            str.trim()--->sashrika           |repeat(2)-->sashrikasashrika
+
+|startsWith()                |endsWith()                      |includes()
+str.startsWith("s")--->true  str.endsWith("a")--->true         str.includes("")---true
