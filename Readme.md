@@ -62,3 +62,9 @@ str.length()--->8            str.trim()--->sashrika           |repeat(2)-->sashr
 
 |startsWith()                |endsWith()                      |includes()
 str.startsWith("s")--->true  str.endsWith("a")--->true         str.includes("")---true
+
+|split()                      |replace()                      |replace.All()  
+str.split("")--->["s","a","s","h","r","i","k"]             
+str.replace("s","S")--->"SaShRiKa"  
+sash-ri-ka --->str.replaceAll("-","")
+|padStart(9,0)-->makes our stritn g until it is 9 charecters and fill thoses places with 0 --->00sashrika
