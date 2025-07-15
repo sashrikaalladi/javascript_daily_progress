@@ -68,3 +68,12 @@ str.split("")--->["s","a","s","h","r","i","k"]
 str.replace("s","S")--->"SaShRiKa"  
 sash-ri-ka --->str.replaceAll("-","")
 |padStart(9,0)-->makes our stritn g until it is 9 charecters and fill thoses places with 0 --->00sashrika
+
+
+13.string SLICING- creating a substring from the portion of another string
+    let str="sashrika"  str.slice(0,4)-->sash here 4 is exclusive i,Lastindex is exclusive
+    let str="sashrika"  str.slice(-1)---> a so if -1 it starts counting from back 
+    let str="sash rika"  str.slice(str.indexOf(""))--->sash; so using indexOf helps us seperate and get data
+
+14.Method Chaining---->calling one method after another to make contious line of code 
+let str="sashrika"  str.trim().toLowerCase()+ str.slice(1).toUpperCase()
